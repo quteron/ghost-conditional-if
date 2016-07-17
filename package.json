@@ -1,0 +1,36 @@
+{
+  "name": "ghost-conditional-if",
+  "version": "0.0.1",
+  "description": "Custom handlebars helper to improve general 'if' handlebars helper used in ghost",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec",
+    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quteron/ghost-conditional-if.git"
+  },
+  "keywords": [
+    "ghost",
+    "if",
+    "conditional if",
+    "handlebars",
+    "handlebars helpers"
+  ],
+  "author": "Quteron <quteron@gmail.com> (quteron.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/quteron/ghost-conditional-if/issues"
+  },
+  "homepage": "https://github.com/quteron/ghost-conditional-if#readme",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "coveralls": "^2.11.11",
+    "istanbul": "^0.4.4",
+    "mocha": "^2.5.3"
+  }
+}
